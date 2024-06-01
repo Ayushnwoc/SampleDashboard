@@ -1,12 +1,8 @@
 import React from "react";
 import { BiSolidLogOut } from "react-icons/bi";
 import {
-	BsFillBellFill,
-	BsFillEnvelopeFill,
-	BsPersonCircle,
 	BsSearch,
 	BsJustify,
-  BsMoon,
 } from "react-icons/bs";
 
 function Header({ OpenSidebar }) {
