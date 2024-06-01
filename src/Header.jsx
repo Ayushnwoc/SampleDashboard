@@ -1,8 +1,8 @@
 import React from "react";
-import { BiSolidLogOut } from "react-icons/bi";
 import {
 	BsSearch,
 	BsJustify,
+	BsBoxArrowRight
 } from "react-icons/bs";
 
 function Header({ OpenSidebar }) {
@@ -25,7 +25,7 @@ function Header({ OpenSidebar }) {
 				</button>
 			</div>
 			<div className="header-right">
-				<BiSolidLogOut style={{fontSize:'30px'}} className="icon" />
+				<BsBoxArrowRight style={{fontSize:'30px'}} className="icon" />
 			</div>
 		</header>
 	);
